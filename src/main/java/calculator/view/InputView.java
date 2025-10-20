@@ -15,10 +15,10 @@ public class InputView {
 
         //TODO "//"로시작되는 입력은 따로 처리해야합니다.
 
-        if (input.startsWith(CUSTOM_DELIMITER_PREFIX)) {
-            String numbers = Console.readLine();
-            return input + "\n" + numbers;
-        }
+//        if (input.startsWith(CUSTOM_DELIMITER_PREFIX)) {
+//            String numbers = Console.readLine();
+//            return input + "\n" + numbers;
+//        }
 
         return input;
     }
